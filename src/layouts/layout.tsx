@@ -9,7 +9,18 @@ const Layout = () => {
       <Navbar />
       <div className="container">
         <div className="menuContainer">
-          <Menu />
+          <Menu
+            id={0}
+            title={""}
+            listItems={[
+              {
+                id: 1,
+                title: "",
+                url: "",
+                icon: "",
+              },
+            ]}
+          />
         </div>
         <div className="menuContent">
           <Outlet />
