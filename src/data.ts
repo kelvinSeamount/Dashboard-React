@@ -36,13 +36,13 @@ export const menu = [
       {
         id: 3,
         title: "Orders",
-        url: "/orders",
+        url: "/",
         icon: "order.svg",
       },
       {
         id: 4,
         title: "Posts",
-        url: "/posts",
+        url: "/",
         icon: "post2.svg",
       },
     ],
@@ -54,7 +54,7 @@ export const menu = [
       {
         id: 1,
         title: "Elements",
-        url: "/elements",
+        url: "/",
         icon: "element.svg",
       },
       {
@@ -66,13 +66,13 @@ export const menu = [
       {
         id: 3,
         title: "Forms",
-        url: "/forms",
+        url: "/",
         icon: "form.svg",
       },
       {
         id: 4,
         title: "Calendar",
-        url: "/calendar",
+        url: "/",
         icon: "calendar.svg",
       },
     ],
@@ -84,7 +84,7 @@ export const menu = [
       {
         id: 1,
         title: "Settings",
-        url: "/settings",
+        url: "/",
         icon: "setting.svg",
       },
       {
@@ -102,13 +102,13 @@ export const menu = [
       {
         id: 1,
         title: "Charts",
-        url: "/charts",
+        url: "/",
         icon: "chart.svg",
       },
       {
         id: 2,
         title: "Logs",
-        url: "/logs",
+        url: "/",
         icon: "log.svg",
       },
     ],
@@ -202,7 +202,6 @@ export const chartBoxProduct = {
     { name: "Sat", products: 450 },
   ],
 };
-
 export const chartBoxRevenue = {
   color: "teal",
   icon: "/revenueIcon.svg",
@@ -235,5 +234,77 @@ export const chartBoxConversion = {
     { name: "Thu", ratio: 400 },
     { name: "Fri", ratio: 500 },
     { name: "Sat", ratio: 450 },
+  ],
+};
+
+export const barChartBoxVisit = {
+  title: "Total Visit",
+  color: "#FF8042",
+  dataKey: "visit",
+  chartData: [
+    {
+      name: "Sun",
+      visit: 4000,
+    },
+    {
+      name: "Mon",
+      visit: 3000,
+    },
+    {
+      name: "Tue",
+      visit: 2000,
+    },
+    {
+      name: "Wed",
+      visit: 2780,
+    },
+    {
+      name: "Thu",
+      visit: 1890,
+    },
+    {
+      name: "Fri",
+      visit: 2390,
+    },
+    {
+      name: "Sat",
+      visit: 3490,
+    },
+  ],
+};
+
+export const barChartBoxRevenue = {
+  title: "Profit Earned",
+  color: "#8884d8",
+  dataKey: "profit",
+  chartData: [
+    {
+      name: "Sun",
+      profit: 4000,
+    },
+    {
+      name: "Mon",
+      profit: 3000,
+    },
+    {
+      name: "Tue",
+      profit: 2000,
+    },
+    {
+      name: "Wed",
+      profit: 2780,
+    },
+    {
+      name: "Thu",
+      profit: 1890,
+    },
+    {
+      name: "Fri",
+      profit: 2390,
+    },
+    {
+      name: "Sat",
+      profit: 3490,
+    },
   ],
 };

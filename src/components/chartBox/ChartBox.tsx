@@ -9,12 +9,7 @@ type ChartBoxProps = {
   number: string;
   dataKey: string;
   percentage: number;
-  chartData: [
-    {
-      name: string;
-      products: number;
-    }
-  ];
+  chartData: object[];
 };
 
 const ChartBox = (props: ChartBoxProps) => {

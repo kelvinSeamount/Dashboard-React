@@ -3,18 +3,20 @@ import TopBox from "../../components/topBox/TopBox";
 
 import "./home.scss";
 import {
+  barChartBoxRevenue,
+  barChartBoxVisit,
   chartBoxConversion,
   chartBoxProduct,
   chartBoxRevenue,
   chartBoxUser,
-  topDealUsers,
 } from "../../data";
+import BarChartBox from "../../components/barChartBox/BarChartBox";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="box box1">
-        <TopBox {...topDealUsers} />
+        <TopBox id={0} username={""} email={""} img={""} amount={""} />
       </div>
       <div className="box box2">
         <ChartBox {...chartBoxUser} />
@@ -22,7 +24,7 @@ const Home = () => {
       <div className="box box3">
         <ChartBox {...chartBoxProduct} />
       </div>
-      <div className="box box4"></div>
+      <div className="box box4">Box 4</div>
       <div className="box box5">
         <ChartBox {...chartBoxConversion} />
       </div>
@@ -30,8 +32,12 @@ const Home = () => {
         <ChartBox {...chartBoxRevenue} />
       </div>
       <div className="box box7">Box 7</div>
-      <div className="box box8">Box 8</div>
-      <div className="box box9">Box 9</div>
+      <div className="box box8">
+        <BarChartBox {...barChartBoxVisit} />
+      </div>
+      <div className="box box9">
+        <BarChartBox {...barChartBoxRevenue} />
+      </div>
     </div>
   );
 };
