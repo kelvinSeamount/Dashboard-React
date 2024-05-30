@@ -5,23 +5,23 @@
   flex-direction: column;
   gap: 10px;
   margin-bottom: 10px;
-}
 
-.item .title {
-  font-size: 20px;
-  font-weight: 20px;
-  color: $soft-color;
-  text-transform: uppercase;
-}
+  .title {
+    font-size: 20px;
+    font-weight: 200;
+    color: $soft-color;
+    text-transform: uppercase;
+  }
 
-.listItem {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  padding: 10px;
-  border-radius: 5px;
-}
+  .listItem {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 10px;
+    border-radius: 5px;
 
-.listItem:hover {
-  background-color: $soft-bg;
+    &:hover {
+      background-color: $soft-bg;
+    }
+  }
 }

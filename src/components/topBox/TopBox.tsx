@@ -18,7 +18,7 @@ const TopBox = ({ id }: TopBoxProps) => {
           <div className="listItem" key={id}>
             <div className="user">
               <img src={user.img} alt="image-icons" />
-              <div className="">
+              <div className="userTexts">
                 <span className="username">{user.username}</span>
                 <span className="email">{user.email}</span>
               </div>
