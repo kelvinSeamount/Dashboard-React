@@ -12,7 +12,7 @@ export const menu = [
       {
         id: 2,
         title: "Profile",
-        url: "/profile",
+        url: "/",
         icon: "user.svg",
       },
     ],
@@ -24,13 +24,13 @@ export const menu = [
       {
         id: 1,
         title: "Users",
-        url: "/users",
+        url: "/",
         icon: "user.svg",
       },
       {
         id: 2,
         title: "Products",
-        url: "/products",
+        url: "/",
         icon: "product.svg",
       },
       {
@@ -60,7 +60,7 @@ export const menu = [
       {
         id: 2,
         title: "Notes",
-        url: "/notes",
+        url: "/",
         icon: "note.svg",
       },
       {
